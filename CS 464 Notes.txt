@@ -1,0 +1,129 @@
+CS 464 Notes
+Spring 2018
+
+
+lecture 1  - OS definition
+===============================================================================
+What is open source software?
+
+	-> source code is shared to edit and redistrib
+		-> even repackage as a new project
+
+	-> collaborative internet-based development
+
+	-> meritocracy, best code/ideas win out
+		-> anyone welcome to make contributions
+
+	^^ Not all are necessarily true
+
+
+Formal def:
+	-> goverend by Open Source Inititative (OSI) approved license
+
+
+1) require - free redistribution
+
+2) require sharing of - source code
+
+3) allow - derived works
+
+4) maintain - integrity of author's source code
+
+5) no discrimination against persons or groups
+
+6) no discrim against fields of endeavor
+
+7) distrib of license
+
+8) license must not be specific to a product
+
+9) license must not restrict other software
+
+10) license must be technology neutral
+
+
+Key take away:
+
+"free and open source"
+
+FREE AS IN FREEDOM, NOT AS IN BEER
+
+
+
+lecture 2 - history of OS
+===============================================================================
+
+Technically.. this was the norm at the beginning of computers as software sharing was
+	encourage by IBM to get more people to use computers (and hardware sales)
+
+~1970's - software starting to gain traction (showing the value, improve value, etc.. w/o new hardaware)
+
+Diamond V. Diehr (1981)
+	-> US supreme court forces patent office to recoginze software algos patents
+	-> forced open flood gates on software patents and possible rapid growth of purely
+		software companies like Microsoft
+
+Emergence of proprietary software
+
+	-> sw controlled and owned by 1 actor
+
+	-> to protect ownership, code is tightly controlled
+		-> only authorized ppl allowed to view and edit
+
+	-> this control and secrecy surroundign how things are done are seen as key to
+		controlling the value of SW
+
+		(dependent on vender for updates, etc..)
+
+
+AT&T looked to close off UNIX, so Richard Stallman and the Free Software Foundation came along
+
+	-> GNU public license (GNU's Not Unix)
+		-> gnu c compiler (gcc)
+
+GNU Public License (GPL)
+
+	-> first free, or Open Software Licenses
+		-> many current ones build on this
+
+	4 Freedoms (rights, not cost)
+		1) to use
+		2) to copy
+		3) to modify
+		4) to contribute
+
+	-> struggled w/ acceptance for corporate space
+		-> enter the Open Source Initiative 
+			-> designed to make "free software" more acceptable
+
+Open Source = dev methodology
+Free Software = social movement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
