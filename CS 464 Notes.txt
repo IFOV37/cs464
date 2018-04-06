@@ -102,6 +102,82 @@ Free Software = social movement
 
 
 
+Book chapter 1
+-------------------------------------------------------------------------
+
+One of the most common mistakes - unrealistic expectations
+	-> opening a project can add a whole new set of complexities and possibly cost more in the short term
+
+Related mistake - skimping on presentation and packaging
+	-> need to clear barriers for newcomers
+
+Mgmt in open source isnt always very visibile, but is usually happening behind the scenes in successful projects
+
+
+History:
+	
+	early period had little standaridztion of hardware
+		-> led to architecture expertise rather than language expertise
+		-> in manufacturers best interest
+
+	no widespread internet
+		-> getting data from place to place was inconvenient and cumbersome
+		-> assisted by knowledge sharing expectation due to many devs working at universities
+
+Rise of Proprietary Software and Free Software
+
+	2 things occured gradually:
+		1) hardware designs gave way to a few clear winners (tech, marketing, or both)
+
+		2) dev of "high level" langs which coudl compile to run on diff kinds of computers
+			-> not locked into manufacturer
+
+	Software become a differentiator.  Selling or treating it as an integral part of hardware sales began to look like a goo strategy.
+		-> M's had to start enforcing copyrights more strictly
+		-> sharing could implement "added value" features being sold (or get into competitor hands)
+
+
+Stallman noticed that the community cooperation was becoming forbidden due to proprietary software and decided to resist the trend.
+	-> Started GNU Project and the Free Software Foundation (FSF)
+		-> GNU Goal: dev completely free and open computer operating system and body of application software (GNU's Not Unix), which users would never be prevented from hacking or from sharing their mods.
+
+		-> dev'd GNU General Public License (GPL)
+			-> copy'd and mod'd w/o restriction
+				-> both copies and derivative workds must be distrubted under same license as OG
+			-> prevents EVERYONE/ANYONE from limiting distribution
+
+	FSF struggled w/ their kernal -> in comes L.T. w/ his Linux kernel
+		-> add existing GNU pgms and other free SW (X Windows System)
+			-> 1st free OS
+
+	BSD - Berkeley Software Distribution
+		-> gradual reimplemenetation of the UNIX OS
+
+
+
+"Free" Versus "Open Source"
+
+	"free software" DNE "zero-cost software"
+		-> all free software is zero-cost, but not all zero-cost is free as in "freedom"
+			(freedom to modify)
+
+	gratis = free, w/o charge
+	libre = free, at liberty
+
+1998: Open Source termed as an alternative to "free" by those who became OSI
+	-> contributions are evaluated on technical grounds
+		-> not motivations
+
+
+
+
+
+
+
+
+
+
+
 
 
 
