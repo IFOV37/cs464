@@ -172,6 +172,91 @@ Stallman noticed that the community cooperation was becoming forbidden due to pr
 
 
 
+lecture 3 - Anatomy of an Open Source Project
+============================================================================================
+
+Tools have 3 groups:
+
+	1) Communication tools
+		-> IRC
+			LCD for Real time comm
+			div'd into #channels
+			non-persistent w/ limited flow control
+			chat for quick answers
+			etc..
+
+		-> Mailing Lists
+			simple redistribution and carchiving mechanism
+			hash out designs/reqs/distro
+			etiquette
+
+			recommended to start "lurking" to figure out who is who
+
+		-> web/wiki pages
+			the projects' public face
+			contains info about project, members, IRC channel, possibly design docs, code repo, bug tracker, etc..
+
+	2) Coordination Tools
+		-> bug trackers (most important)
+				Depends on users to find bugs (enough eyeballs)
+
+				Ex: Bugzilla, Trac, Redmine, Jira
+
+				database, front-end tracking
+					-> outstanding issues
+					-> causes
+					-> who is working on them
+					-> current status and priority
+
+		-> feature requests (2nd important)
+
+	3) Coding tools
+		-> code management systems (git, hg, SVN, CVS)
+
+
+
+Book, chapter 3 - Techncial Infrastructure
+----------------------------------------------------------------------------------------------
+
+Good information mgmt is what prevents open source projects from collapsing under the weight of Brooks' Law
+	-> Brooks' Law = adding manpower to a late software project makes it later
+		-> this is due to each person no longer being able to remain aware of what everyone else it doing (as # of ppl grow)
+
+
+
+What a Project Needs:
+
+	Web site
+	Mailing lists / Msg forums
+	Version control
+	Bug Tracking
+	Real-time chat
+
+
+	Web Site:
+		devoted to helping people participate in the project (different than the public facing one)
+			-> could be 1 for broad users who want to get involved
+			-> 1 for developers
+			-> 1 for public
+
+				You might have less for small projects.  Need to determine what is right for you.
+
+
+	Canned Hosting:
+		-> online service that offers some or all of the online collab tools needed to run a free software project
+			minimum: version control repo, bug tracking.  Most offer wiki, may offer mailing list hosting, some offer continuous integration testing and other services
+
+		2 main advs:
+			1) server capactiy and bandwidth
+			2) simplicity
+				-> they already chose and setup everything for you!
+
+		disadv:
+			you must accept their choices and configs
+				-> try to arrange things so you aren't locked in if you need to switch later
+
+		
+
 
 
 
