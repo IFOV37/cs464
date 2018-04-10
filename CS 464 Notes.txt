@@ -256,15 +256,46 @@ What a Project Needs:
 				-> try to arrange things so you aren't locked in if you need to switch later
 
 		
+	Mailing Lists / Message Forums
+		-> larger, more complex projects will benefit from the forums
+		-> these 2 terms are becoming nearly unified
+
+		-> should have a prominently placed description of all available public forms
+			-> guide newcomers
+
+
+	Choosing the right forum mgmt software
+
+		Need to consider these:
+			i) both email and web-based access
+			ii) moderation features
+			iii) rich admin interface
+			iv) header manipulation
+				-> (email filtering and replying rules)
+			v) archiving
+
+
+	Spam Prevention:
+
+		Filtering posts: 3 basic techniques
+			1) only auto-allow postings from list subscribers
+				-> don't make others auto discard, go to a mod queue
+				-> email addresses aren't reliable method of identifying ppl
+					-> could reply from diff email or 1st time poster
+
+			2) Filtering posts through spam-detection software
+
+			3) Moderation
+				-> mail routed to a specific holding area, where human examines it, then confirms or rejects it
+
+
+	Archiving:
+		Every discussion forum should be fully archived
 
 
 
-
-
-
-
-
-
+Version Control:
+	
 
 
 
