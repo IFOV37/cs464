@@ -294,21 +294,92 @@ What a Project Needs:
 
 
 
-Version Control:
-	
+Version Control:  version control system (or revision control system)
+	-> combo of tech and practices for trackign and controlling changes to a project's files, particularly source code, documentation, and web pages
+
+	Helps with almost every aspect of running a project:
+		inter-dev comms
+		release mgmt
+		bug mgmt
+		code stabilty and experimental dev efforts
+		attribution and auth of changes by particular devs
 
 
+	core = change mgmt
 
 
+	Vocab:
+		commit - make chng to project (to store the change in the version ctrl database)
+
+		push - publish a commit to a publicly online repo
+
+		pull - (update) to get project changes from project's mainline dev branch
+
+		commit msg or log msg - commentary attached to each commit
+
+		repository - db whr changes are stored and from which they are published
+
+		clone (see also checkout) - to obtain one's own dev repo by making a copy of the project's central repo
+
+		checkout - like clone, but obtains a working copy or working files from a repo
+
+		working copy or working files - a dev's private directory tree contaiing the prj's source code files and possibly its web pages or other docs
+
+		revision, change, changeset, or (again) commit - precisely spec'd incarnation of the prj at a pt in time
+
+		diff - textual rep of a change, shows which lines were changed and how, plus a few surrounding context on either side
+
+		tag or snapshot - label for a particular state of the project at a point in time.  Generally used to mark interesting snapshots of the project
+
+		branch - copy of the project, isolated so changes made to this don't affect other branches
+
+		merge or port - move chng from one branch to another.. merge can result in conflicts sometimes
+
+		conflict - what happens when 2 ppl try to make diff chngs to the same place in the code.. human needs to resolve the conflict
+
+		revert or reversion - under an already commited chng to the software
+
+		lock - way to declare an exclusive intent to change a particular file or directory
+			-> many require the lock-mod-unlock model
 
 
+	VERSION EVERYTHING!!!
+		-> keeps it organized, and good for tracking all updates
 
 
+	Browsability
+		-> prj's repo should be browsable on the web.
+		-> ability to look ato both latest and earlier revisions/logs
 
 
+	Use branches to avoid bottlenecks
+		-> they turn a scarce resource - working room in the prj's code - into an abundant one.
+		-> when branch is successful with implementing a feature/design, others examine a pull request
+			-> if pull request result is good, system can do a merge to the master branch
 
 
+	Singularity of Information
+		never commit the same change twice
+		use consistent syntax for changes
 
+
+	Authorization
+		most projects use honor system for commit access
+
+
+	Receiving and Reviewing Contributions
+
+		Pull Requests - primary method
+			-> from contributor to the prj that a certain change be pulled into the prj
+			-> change offered int he form of the diff b/w the contrib's copy and the prj's own copy
+
+
+		Comit Notifications/Emails
+			-> every commit or push containing a group of commits should generate a notification that goes out to a subscribable forum, such as an email sent to a mailing list
+				-> include basic info about the change
+
+
+Bug Tracker:
 
 
 
