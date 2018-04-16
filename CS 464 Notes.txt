@@ -381,6 +381,61 @@ Version Control:  version control system (or revision control system)
 
 Bug Tracker:
 
+	used for: 
+		bug tracking
+		new feature reqs
+		1 time tasks
+		unsolicited patches
+		etc..
+
+	aka: issue trackers, ticket trackers, request trackers.. etc...
+
+	steps:
+
+		1) someone files a ticket
+		2) others read ticket, add to it
+		3) bug gets reproduced
+		4) bug gets diagnosed (cause and effort to fix is estimated)
+		5) ticket gets scheduled for resolution (possible future release date)
+		6) bug gets fixed (or task completed..etc)
+
+
+IRC / Real Time Chat Systems
+	-> could host with Freenode
+	-> IRC needs archiving added w/ something like ZNC
+
+	Has bots which you can configure to say different things (useful links)
+		-> could have this watch the prj's VCR (version control repo) and broadcast commit activity
+
+	-> great for social aspects and being part of something alive
+
+
+Wikis
+	-> never allow anonymous editing of the wiki
+
+	Usually best to use the built in wiki feature - if the hosting site or project site has it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
