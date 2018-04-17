@@ -417,6 +417,22 @@ Wikis
 
 
 
+week 3
+----------------------------------------------------------------------------------------------------------
+
+What is a VCS video
+	-> we need something to be able to track (revision history) for teams that often work on the same collection of files (even same file) at the same time
+		-> merges the file back together with edits, provided they aren't at the exact same point in the file
+			-> I'd have to resolve this manually
+
+	Git = fast and modern
+		-> provides history of content changes
+		-> facilitates collaborative changes to files
+		-> easy to use for any time of knowledge worker
+
+
+		
+
 
 
 
