@@ -418,12 +418,204 @@ Wikis
 
 
 
+week 4
+------------------------------------------------------------------------------
+
+Participation lecture
+==============================================================================
+
+
+Why do it?  Motivations:
+	Individual Level:
+			-> job (paid to do it)
+			-> reputation (looks good on resume)
+			-> career developmment, skill-gaining
+			-> fun, hobby, intellectually stimulating
+			-> personal needs (fixing a bug when it matters to them)
+			-> desire to work with other humans and to give/earn respect/status through cooperative activities
+
+	Indv: participation (on average)
+
+			prj leaders: 12 hrs/wk
+			bug fixers/active users: 5 hrs/wk
+			most frequent answer providers: 1.5 hrs/wk
+
+			the most common length of participation, (across all time) across all roles, no longer than a single month (w/ a highly skewed [pareto/power-law] distrubition of participation)  aka very few contributing most, very many contributing a little
+
+	Firm lvl:
+			-> create a service business around open source software
+				(think red hat and fedora)
+			-> as many as 45% of contributors are paid by firms for their participation
+			-> sponsoring OSS and employing software engs to participate
+			-> allows smaller firms to innovate b/c "many eyes" assist them in swe dev
+			-> revealing code to receive outside tech support
+			-> b/c of the quality and reliability of FOSS
+
+
+	Common mechanisms for sharing:
+		technical tasks
+		management tasks
+
+		best practices for sharing technical tasks:
+			delegation
+			praise and criticism
+			prevent territoriality
+			treat every user as a potential participant
+			automation ratio
+				-> as a rule of thumb, automating a common task is worth at least 10x the effort a dev would spend doing that task manually one time.
+
+		sharing mgmt tasks
+			-> as prj becomes more complex, this becomes more impt
+
+			common roles:
+				patch mgr
+				translation mgr
+				documentaiton mgr
+				issue mgr
+				ppl would commit access
+				release mgr
+
+			How to handle transitions
+				-> friendly and guilt free
+				-> find out info, not make anyone feel bad
+				-> contact privately
+
+	credit: always give credit to who did what and when
+		-> be specific
 
 
 
+	in person meeting venues:
+		conferences
+		hackfests
+		hackathons
+		code sprints
+		retreats
+		meetups - not only for writing code.. could be docs, user testing, qa sprints, etc..
+
+		primary output of these are social connections
 
 
 
+Section 4.2 from  “Free/Libre open-source software development: What we know and what we do not know.” By Crowston et al.  (total 4 pages)
+----------------------------------------------------------------------------
+4.2 Inputs
+
+	Member characteristics of FLOSS teams:
+		Geographic location:
+			North America and Europe are the most active locations for users/devs
+				-> esp Ger, France, UK
+
+			Asia and Latina America are at a slight dis adv due to lang barrier
+
+		Motivation for participation:
+			Lerner and Tirole economic modeling showed that it is derived from indirect signaling about quality w/ the payoff to come in higher career earnings
+				-> empirical work found little evid to support this, but not discredited
+
+			Individual lvl motiviation:
+				-> reputation and rewards (such as career development)
+				-> enjoyment aka fun, sharing, learning
+				-> personal needs
+				-> leadership 
+				-> relationships
+
+			Firm lvl:
+				-> primarily through creating a service business around OSS
+				-> or sponsoring OSS and employing SW ENGS to participate
+
+		random note: less restrictive licenses typically leads to higher output per contributor
+
+	Project characteristics:
+		-> SW License types attract the most attn here
+			-> plays a crucial role w/ respect to all activities in FLOSS dev, particularly when commercial firms are involved
+				types
+					-> unrestrictive 	eg. BSD
+					-> restrictive 		eg. LGPL
+					-> highly restrictive eg. GPL
+						-> often times geared more to end users rather than devs
+
+		Technology Use:
+			important input since FLOSS team members coordinate their activity primarily by means of computer mediated comms
+
+
+Chapter 8 - managing participants
+===================================================================================
+
+	politics are inevitable whenever pppl have to cooperatively managed a shared resource
+		-> all consequences of decisions must be taken into account
+
+Community and Motivation
+	as we've seen already... job, paycheck, personal satisfaction, human connections/interaction, educational value, respect, etc..
+
+	Delegation
+		-> consider all effects when you ask someone to do something
+			-> you trust that person, but you aren't doing the work
+			-> others are made aware of that trust - if done publically
+			-> they may feel pressure to accept
+
+		-> b/c of all the ffects, it often makes sense to ask someone else to do something even when you know you coudl do it yourself faster or better
+
+
+Distinguish Clearly Between Inquiry and Assignment
+	One thing that almost always causes people instant annoyance is being asked to do something in a way that implies that you think it is clearly their responsibility to do it, when they feel otherwise.
+		-> assignment of incoming tickets is an example here
+			-> if you assign to the expert w/o permission, that person may be in an uncomfortable position
+
+
+Follow up after you delegate
+	-> follow up no matter what
+		-> if no response after a few days
+		-> not to humiliate any one - is there to keep track	
+
+Notice what people are interested in
+	-> remember aspects of someone's personality
+		-> they will be more comfortable
+
+	-> don't assume something excites everyone
+		-> some could like the 1.0 release, some the features/interesting probs, etc..
+
+Praise and Criticism
+	Not opposites, many ways - they are similar
+		-> most effective when specific, not generic
+	-> should be deployed with concrete goals in mind
+		-> too much or too often will devalue
+
+	detailed AND dispassionate must be met for critisim to be regarded as a kind of praise
+		-> if not both, is bad
+
+
+Prevent Territoriality
+	-> watch out for ppl trying to stack exclusive ownership of certain areas of the prj
+		-> creates a single pt of failure and can be destructive
+
+		-> informal authority is granted based on competence and proven judgement, but it should never be actively taken
+
+
+	Cookie Licking
+		-> someone claims (publically) they will take care of something, then doesn't
+			aka, no one would pick up and eat the licked cookie
+
+
+	-> for these reasons, it is a typical practice to prevent sole ownership of a certain area
+
+
+The Automation Ratio
+	-> automating common task is worht at least 10x the effort a dev would psend doing that task manually 1 time.. this could go higher as well for freq or complex tasks
+
+
+Automated Testing
+	-> extremely helpful for OS projects b/c allows devs to feel comfortable changing code in areas they are unfamiliar w/
+		-> encourages exploratory development
+		-> regression testing is key here
+
+	Regression testing means testing working SW that stays working
+		-> to try to reduce chances that code changes will break the SW, particularly in ways that it has been broken b4
+			-> many have a regression test suite
+
+	Unit testing - reduce chance mods break existing functionality
+		-> also has a suite
+
+		
 
 
 
