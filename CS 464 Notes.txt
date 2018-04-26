@@ -632,14 +632,69 @@ Automated Testing
 		-> also has a suite
 
 		
+Treat every use at a potential participant
+	-> each interaction w/ a user is an opportunity to get a new participant
+		-> if someone did something with the project (in any way, shape, or form) they already implied they have more potential for involvement
+
+
+	-> be brief, but concise and effective with your responses
+		-> be curtious even if you have seen it a thousand times
+		-> ask for details and direct them to proper channels
+
+
+Meeting In Person (conferences, hackfets, thons, sprints, retreats)
+	-> primary output of these are social connections
+		-> not bug fixes or features implemented
+		-> aim for increased trust and richer shared vocab b/w devs
+
+
+Share MGMT tasks, not just tech tasks
+	-> Manager does not mean owner
+		-> think responsibility w/o monopoly
+		-> domain managers should document there work in case someone leaves, then someone else can step right in
+
+
+	Patch Mgr (or PR Mgr)
+		-> if there are a lot of patches, someone should manage this
+		-> job to make sure thinks don't slip through the cracks when people contribute
+
+	Translation Mgr
+		could be 2 diff things
+			1) software docs to other languages
+			2) software itself - that is, having the pgm display errors and help msgs in the user's preferred language
+
+			-> both complex tasks, but largely separable from other development
+
+Internationalization Versus Localization
+The distinction between them is subtle but important: 
+
+	-> Internationalization is the adaptation of products for potential use virtually everywhere, while
+
+	-> localization is the addition of special features for use in a specific locale.
+
+	Doc Mgr
+		-> keep docs up to date is a never ending task
+		-> every new feature or enhancement needs docs or changes to current docs
+
+		-> also reviews redudent or outdated materials
+
+
+	Issue Mgr
+		-> helps cope with bug reports/tracking/growth (as user base grows)
+			-> watching what goes into the DB and sweep through looking for specific probs
 
 
 
 
+Commiters
+	commiter: one of the official maintainers of the prjs code
+		-> has commit access (make changes to the copy of the code that is the official release)
 
 
-
-
+Credit
+	-> primary currency of the free software world
+	-> keep accurate records
+	-> assure credit is distributed accurately
 
 
 
