@@ -699,6 +699,193 @@ Credit
 
 
 
+week 5
+------------------------------------------------------------------------------
+
+Communications lecture
+==============================================================================
+
+
+You are what you write
+	-> write clearly
+	-> empathize w/ audience
+
+	-> use complete sentences
+	-> coherent narrative structure
+	-> informative subject line
+
+		-> basically, make things easy for your readers
+
+
+Tone
+	-> be sensitive with the tone since it is hard to infer
+
+Rudeness
+	What doesn't constitue as rudeness?
+		-> technical criticism
+		-> blunt, unadorned questions
+
+	What is rude?
+		-> ignoring someone's work
+		-> Failure to provide quality critism
+			-> take time to analyze
+
+
+Use a consistent screen name everywhere
+	-> this is your "online face"
+
+
+Avoid common pitfalls
+	on a busy mailing list - 2 objectives
+		-> figure out what you need to pay attention to (signal) and what can be ignored (noise)
+
+		-> to behave in a way that avoids causing noise
+			-> you want a high signal/noise ratio
+
+			to avoid making noise, respond to these types of things
+				-> point a flaw
+				-> clarify miscommunication
+				-> to thank someone
+
+
+"Law of Triviality"
+	-> the amt of dicussion is inversly proportional to the complexity of the topic
+
+
+Avoid holy wars
+	-> dispute which is not resolvable on the merits of argument but where people feel passionate and strong enough to continuing arguing anyway
+
+
+How to handle growth
+	-> people showing up for info increases dramatically
+		-> # of pl to provide info increases more slowly
+
+	-> makre sure there are many automated sources of info available
+
+
+Codifying Tradition
+	-> as prj acquires history and complexity, the amt of data each new participant must absorb increases
+
+	-> the traditions a prj accumulates are as much about how to comm and preserve info as they are abt coding standards an dother technical minutiae
+
+	-> watch for patterns in how ppl get confused
+
+	-> as a project grows, consistency becomes more important
+
+
+
+Chapter 6 - Communications
+===================================================================================
+
+For email:
+	-> send plain text emails only
+	-> consturct the subject lines of new mails carefully
+
+
+Content:
+	-> make things easy for your readers
+		-> posts should provide info in the form most convenient for them
+		-> take a few mins to summarize something when answering questions
+
+	-> don't engage in hyperbole
+		-> "this would be a nightmare"
+		-> instead, use "that works, but it's less than ideal for x and y"
+
+Keep signature blocks small and tasteful
+	-> no legal jargon blocks that are obtrusive and ridiculous
+
+Avoid common pitfalls
+	-> don't post w/o a puprose
+		-> you don't have to respond to everything
+
+		Q's to ask yourself:
+			-> do you know what you want to accomplish?
+			-> will it not get accomplished unless you say something?
+
+
+The "noisy minority" effect:
+	-> it is easy for a small minority to give the impression that there is a great deal of dissent by flooding the mailing list w/ numerous lengthy emails
+		-> a bit like a filibuster, except that the illusion of widespread dissent is even more powerful
+			-> it is an instinctive impression rather than tracking things down (when/where)
+
+		-> to counteract, point it out very clearly and provide supporting evidence showing how small the number of dissenters is, compared to those in agreement
+
+
+Don't bash competing open source products
+	-> fine to give negative facts, but don't give negative opinions
+		-> could start a flame war
+		-> some of the devs in your project may work for that project as well
+
+
+
+Handling Difficult People
+	-> helps to understand mentality
+	-> often better to tolerate the difficulty for a while, if it is not debilitating to the prj
+		-> if it gets too damaging, time for action
+			-> start a private convo with other participants
+				-> first ask them what they have observed (get unfiltered feedback)
+
+			-> never accuse them of maliciously abusing the prjs procedures, being paranoid, or other things
+				-> bring examples
+
+
+Treat all resources like archives
+
+
+Choose the right forum
+	-> tricky to get people to be thoughtful about forum choice
+	-> IRC great for quick questions, but not for making decisions that affect the whole prj
+
+	-> if you move to a different form, make sure they are cross-linked to have all the information
+
+
+
+Publicity
+
+	-> target audience is always ill-defined, so a smooth continumm b/w internal and public relation statements
+
+	Announcing Releases and other Major Events
+		-> Put a blub on the front page
+		-> Should have "news" or "press releases" area of website
+			-> write up in detail
+		-> broadcast to relevant social media feeds
+		-> post to forums as appropriate
+		-> send mail to announcment mailing list
+
+	Announcing Security Vulnerabilities
+		-> doing things openly and transparently is almost religious credo
+			-> but here, merely this could be bad
+
+		-> don't talk about the bug publicly until a fix is available
+			-> supply fix at same time as announcement
+
+		-> come up with a fix asap
+
+
+	-> prj needs a secured way to receive reports
+		-> separate mailing list or contact form for security bugs
+
+
+	Quietly dev the fix
+		-> Get all the report info
+		-> should be treated urgently 
+
+		-> could get anonoymous reports
+			-> they could give you a date w/ threat to go public
+
+		-> don't commit a fix to a public reo b4 the go-public database
+			-> ppl are watching wizouski
+			
+
+
+
+
+
+
+
+
+
+
 
 
 
