@@ -877,15 +877,68 @@ Publicity
 			-> ppl are watching wizouski
 			
 
+Week 6
+===============================================================================
+
+Open source lectures
+
+Can open source be traced to the 17th century?
+https://www.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government
+------------------------------------------------------------------------------
 
 
+when a lot of new ideas come into society, it changes society
+
+more media always meands more argument
 
 
+Creators of "philosophical transactions"
+	For arguments/experiments
+		-> publish not just claims, but also how you did the expirement
+		-> invented the scientific journal
+		-> couldn't have been created without printing press
+
+Open source (with source control)
+	-> like feudalism where a few have control over what can be added to source control
+	WE DON'T LIKE THIS
+
+	Linus T said, "I'm not going to do that"
+		-> didn't want to adopt anything that didn't work the way the linux community worked
+
+	-> came up with git
+		-> distributed version control
+
+		lives up to 2 big promises
+			-> everybody who works on it has access to all the source code, all the time
+			-> unique identifier tied to every change (signature)	
+				-> "cooperation w/o coordination"
+
+Code has been put on github that you can see:
+	-> which senators have sponsered which bills
+	-> code for state of utah for their laws
+		-> could be used to further development of their legislation
 
 
+The people who have power aren't expirementing with legislation, while those that don't
+have power are.
+	-> Are we going to use this type of distributed system for the better of society or not?
+		-> We could edit bills for the better of the people
 
 
+Salvatore Iaconesi: What happened when I open-sourced my brain cancer
+https://www.ted.com/talks/salvatore_iaconesi_what_happened_when_i_open_sourced_my_brain_cancer
+------------------------------------------------------------------------------------------------
 
+Forced to wait for a series of professional strangers
+
+	-> Made website
+	-> received 500k contacts
+		-> many on how to cure hiself on a full individual
+		-> provided support and an active roll in helping him get well
+		-> went for surgery
+
+		-> was able to talk to the doctor about things intelligently
+		-> was important to participate in an engaged society
 
 
 
