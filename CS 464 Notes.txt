@@ -1102,18 +1102,114 @@ Always look to see if there is an existing prj that does what you want, b4 start
 Necessary to invest enough into presentation so that newcomers can get past the initial obstacle of unfamiliarity
 	-> again, keep the hactivation energy low
 
+Front page must make it unambiguously clear that the project is free or open source
+	-> could lose contribs if you don't
+	-> list the exact license
+
+
+
+Dev Status
+	-> ppl want to know the diff b/w current reality and prjs promise
+	-> should always reflect reality
+		-> don't be afraid of looking unready
+		-> don't inflate or hype status
+
+
+Downloads
+	-> dldable as source code in standard formats
+		-> binary (exe) packages not necessary when first getting started (unless getting to run would be a lot of work for people)
+	-> distro mechanism should be convenient, std, and low overhead as possible
+	-> get this process setup early as you could lose devs due to a long/complicated setup
+
+
+
+Dev Guidelines
+	-> social more than technical
+	-> explain how to interact w/ each other and w/ users
+
+		-> ptrs to forums
+		-> how to report bugs/submit patches
+		-> some indication of how dev is usually done and how decisions are made
+
+
+Documentation
+	-> tell reader how much technical expertise they're expected to have
+	-> describe clearly how to setup software (w/ diag test to confirm)
+	-> give 1 tutorial style example of how to do a common task
+	-> label the areas whr the doc is known to be incomplete
+
+	-> should be on website and in the distro
+
+
+Choose license and apply it
+	GPL - if you don't want your code in proprietary programs
+	AGPL - consider this if users interact w/ code primarily over network connection
+			-> extra clause to establish network accessibility as a form of distro
+
+
+Apply license to software
+	-> state the license clearly on the prjs front page
+	-> SW itself should include this
+		-> put the full ilcense text in a file called COPYING (or LICENSE) include w/ source code
+			-> then short notice in a comment at the top of each source file, naming the c-right date, holder, license, and saying where to find the full text of license
+
+
+Code of Conduct
+	-> good to have (or at least a trend)
+
+
+
+Practice code review
+	-> look at changes as they arrive aka commit review
+	-> should even be public
+
+
+Be open from day one
+	-> put it out in the open on the first day
+		-> the longer it is closed, the harder it is to open source it later
+			-> if you do this, you run the risk of doing things like:
+				checking passwords or customer specific items into VCS
+				sample data from live (and confid) info
+				bug reporsts containing sensitive data
+				comments that are inflamitory to a client
+				etc..
 
 
 
 
+book chapter 7: Packaging, Releasing, and Daily Development
+----------------------------------------------------------------
+
+See notes on release versioning from the lecture
 
 
+Release Branches
+	-> free SW prj in continuous state of release
+
+	-> a branch in VCS which the code is destined for this release can be isolated from the mainline development
+
+	-> maintenance can continue in parallel if you version the branches
+		-> can be a branch from another branch
+			i.e. dev is a branch of main, a single fix or something is a branch of dev
+			could have multiple dev versions with multiple branches as well
 
 
+Stabilization is the process of getting a release branch into a releasable stated
+	-> deciding which changes will or won't be in the release, shaping the branch content accordingly
 
 
+Time-Based releases - prj puts out a new release at an absolutely regular rythm, such as every 6 months
+
+Feature-Based releases - released when certain features are complete
 
 
+Dictatorship by release owner
+	-> group agrees to let 1 person be the release owner
+
+
+voting on changes
+	-> opposite of dictatorship, devs can vote on which changes to include in the release
+	
 
 
 
