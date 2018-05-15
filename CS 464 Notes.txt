@@ -970,6 +970,148 @@ ocuppySEC
 
 
 
+Week 7
+===============================================================================
+
+starting and open source project lecture
+-----------------------------------------------
+Look around to see if there is an existing project that does what you want
+	-> easier than starting a brand new one
+
+
+Need to acquire
+	-> users
+	-> developers
+
+Decide what the project is really about and what it isn't
+	-> define limitations
+
+write a mission statement
+	-> will benefit newcomers
+	-> done in README.md (preferably in markdown)
+	-> clear and short
+		-> so newcomer can decide w/in 30 seconds if they are interested
+	-> place on front page, preferably under the project's name
+	-> clearly stated it is "free" or "open source"
+
+
+"hacktivation energy"
+	-> amt of energy a newcomer must put in b4 she starts getting something back
+	-> lower, the better (to encourage involvement)
+
+choose a name
+	-> gives idea what prj does
+	-> easy to remember
+	-> not used elsewhere
+	-> available at a domain
+	-> social media username avail
+
+
+features and req list
+	-> list of features the sw supports
+		-> even if it is a wish list
+
+
+Provide comm channels
+	-> how to reach other humans in prj?
+		-> provide mailing list addresses, chat rooms, IRC channels
+		-> make it clear who the authors are and whr they can be reached
+
+
+Add dev guidelines
+	-> written for someone considering contributing
+		-> more social than technical
+
+	-> pointers to forums for interaction
+	-> instructions on how to report bugs and submit patches
+	-> indication of how dev is usually done and how decisions are made
+
+
+Add documentation
+	-> quickly setup software
+	-> overview of how it works
+	-> tutorials
+	-> FAQ
+	-> Demos, screenshots, videos, etc..
+
+
+Annoucing your project
+	-> once prj is presentable, ann. publicially
+	-> best is usually something like hacker news or sub reddits
+		-> more like a planted seed than spike
+
+
+Releases
+	-> some old bugs fixed
+	-> new bugs added
+	-> new features added
+	-> install procedures changed
+	-> incompatible changes introduced
+
+	Alpha
+		-> 1st release, which users can get real work done w/ intended functionality
+		-> known bugs
+		-> main purpose to generate feedback
+
+	Beta
+		-> software's APIs are finalized and its serious known bugs fixed
+		-> not yet tested enough to certify for production release
+		-> purpose to either become the official release (assuming no bugs) or provide detailed feedback to the devs so they can reach the official release quickly
+
+
+	Number conventions
+		-> should unambiguously comm the ordering of releases
+		-> groups of digits sep'd by dots
+			ProjName 2.11.3
+					 2.11.4 (Alpha)
+					 2.11.4 (Beta)
+
+			first = major
+				-> expected to bring new features
+				-> changes can be FWD BWD incompatible
+
+			second = minor
+				-> May introduce new features
+				-> changes must be BWD compatible
+
+			third = micro/patch #
+				-> bug fixes only, no new features
+				-> changes much be FWD and BKWD compatible
+
+		Even/odd strategy
+			-> some prjs minor number comp to indicate the stability
+			-> even = stable, odd = unstable
+			-> offers way to release new functionality for testing w/o prod having unstable code
+
+
+book chapter 2: Getting Started
+------------------------------------------------
+
+twofold task
+	-> acquire users
+	-> acquire developers
+
+user and developer refer to someone's relationship to the project, not identity in the world
+	-> a dev could used a project (library), which would make them a user
+		-> if they contribut back upstream, can also be a dev of the prj
+
+
+Always look to see if there is an existing prj that does what you want, b4 starting your own
+
+
+Necessary to invest enough into presentation so that newcomers can get past the initial obstacle of unfamiliarity
+	-> again, keep the hactivation energy low
+
+
+
+
+
+
+
+
+
+
+
 
 
 
