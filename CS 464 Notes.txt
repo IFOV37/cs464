@@ -1213,11 +1213,92 @@ voting on changes
 
 
 
+Week 8
+===============================================================================
+
+Economics of Open Source
+-----------------------------------------------
+
+Econs that drive OS
+	-> lack of need for a monopoly
+
+	Often a company needs a particular piece of SW to be maintained and developed
+		-> doesn't need the monopoly on that SW
 
 
+Paid vs Volunteer
+	-> most free/OSS is written by paid devs
+
+	Vols
+		-> philosophical and self betterment
+
+	Paid
+		-> solving a problem, filling a need
 
 
+Common Business Models for OSS
+	1) Support-ware
+		-> SW is free, support is not
 
+	2) Product-ware
+		-> SW is free, the device it runs on is not
+
+	3) Cloud-ware
+		-> SW is free, but only runs on cloud.  Pay us for use/resources
+
+	4) Project-ware
+		-> Base SW is free, pay us to customize it
+
+	5) Hybrid-ware
+		-> Propietary add-ons or premium features
+
+	6) Dual License
+		-> commerical use vs non-profit & edu uses
+
+	7) Consortium-ware
+		-> everyone commits resources for common good.  Services (per use)
+
+	8) Ad-ware
+		-> all hail Google the great and powerful....
+
+	9) Donation-ware
+		-> click to contribute
+
+
+Why some corps support OSS
+	-> sharing the burden
+	-> ensuring maintenacne of infrastructure
+		-> when a company sells services which depend on FOSS
+	-> establishing a standard
+		-> releasing an OS implemention of that standard
+	-> creating an ecosystem
+		-> in which they are more likely to flourish
+	-> supporting hardware sales
+		-> having high-quality free SW to run on HW is important to customers
+	-> undermining a competitor
+		-> eating away at a competitor's market share
+	-> marketing
+	-> proprietary relicensing
+
+
+Governments and Open Source
+	-> govs differ from individuals and from private-sector orgs in some fundamental ways
+			-> risk-averse
+			-> have labyrinthine and inflexible employment policies
+			-> officials hunger for well-timed and well-controlled publicity events,
+				which can come at the expense of overal project health
+
+	Open source offers govs many benefits:
+		-> freedom from vendor lock-in
+		-> shifting devs to high-value work
+		-> low total cost of ownership
+		-> modularity, open standards, interoperability
+		-> reduced duplication of efforts
+		-> giving tax-funded development to the people who pay for their development
+		-> transparency
+
+
+		
 
 
 
