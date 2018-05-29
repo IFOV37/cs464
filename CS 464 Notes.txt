@@ -1299,9 +1299,78 @@ Governments and Open Source
 
 
 		
+Week 9
+===============================================================================
+
+Legal Matters: Licensing, Copyrights, Trademarks, and Patents
+-----------------------------------------------
+
+SW LIcenses
+	-> legal instrument defining the terms of distrubtion, modifiability, and usage of software
+	-> license
+		-> the thing that differentiates OSS from other software
 
 
+No license? = Public domain
+	-> PD work is work w/o any restrictions
 
+	-> if you release your SW w/o license, it is in effect public domain, and you no longer have control over what can and cannot be done with it
+
+
+Free SW L's: similarities
+	common among all
+		-> anyone can:
+			-> modify the code
+			-> redistribute it both in OG or mod'd form
+			-> the copyright holders and authors provide no warranties whatsoever (avoiding liability is especially impt given that ppl might run mod'd versions w/o even knowing it)
+
+Copyleft
+	-> concept that permission should be provided for users to modify and create derivative version of a work
+
+	-> derivative versions must be distrib'd under the same terms as OG work
+
+	examples:
+		-> GNU GPL
+		-> Creative Commons ShareAlike
+
+
+Free SW L's: Differences
+
+	Compatibility w/ proprietary Ls
+		-> permissive (non-copyleft) free licenses allow the covered code to be used in proprietary programs
+			Exs: Apache, BSD-style, MIT-style
+
+	Compatibility w/ other types of free Ls
+		-> code under 1 L can be combined with code under another, and the result distrib'd under either L w/o violating the terms of the other
+
+		-> some of them are compatible w/ some of the copyleft Ls, i.e. a work comprised of code under the ermissive license and code uner the copy left L can be distrib'd as a combined work under the copyleft license (since that's the license that places more conditions), w/ the OG code in each case remaining under its OG license
+
+	Enforcement of crediting
+		-> covered code be accompanied by a notice, whose palcement and display is usually specified, giving credit to the authors or copyright holders of the code
+
+	Protection of trademark
+		-> name of OG SW (or its c-right holders, or their instituition, etc.) may NOT be used to identify derivative works, at least not w/o prior written persmission
+
+	Patent snapback
+		-> prevents ppl from using patent law to take away the rights granted under copyright law by the licenses
+
+
+Proprietary compatibility
+	
+	Licenses:
+		proprietary-compatible (non-copyleft)
+			EX: MIT, BSD, Apache
+
+		Proprietary-incompatible (copyleft)
+			Ex: GNU GPL
+
+			Goal: promotion of free software
+
+			Makes it impossible to mix GPLed code into proprietary pgms
+				-> any deriv work must itself be distrib'd under GPL
+				-> no additional restrictions may be placed on the redistribution of work
+
+				
 
 
 
